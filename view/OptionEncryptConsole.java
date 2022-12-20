@@ -3,7 +3,6 @@ package view;
 import java.util.List;
 import java.util.Scanner;
 
-//import utils.Alphabets;
 import utils.EncryptConsole;
 
 public class OptionEncryptConsole {
@@ -19,6 +18,6 @@ public class OptionEncryptConsole {
 		int shift = Integer.parseInt(console.nextLine());
 		System.out.println("Your result is:");
 		System.out.println(EncryptConsole.encryptTextConsole(text, shift, alphabet));
-		System.out.println("Please select option 1 - 6");
+		System.out.println("\nPlease select option 1 - 6");
 	}
 }

@@ -20,6 +20,6 @@ public class OptionBruteForce {
 		BruteForce.bruteShift(pathEncryptedFile, pathDecryptedFile, alphabet);
 
 		System.out.println("Your result saved in: " + pathDecryptedFile);
-		System.out.println("Please select option 1 - 6");
+		System.out.println("\nPlease select option 1 - 6");
 	}
 }

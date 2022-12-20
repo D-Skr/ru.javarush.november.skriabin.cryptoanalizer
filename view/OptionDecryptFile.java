@@ -35,6 +35,6 @@ public class OptionDecryptFile {
 			}
 			writer.close();
 		}
-		System.out.println("Please select option 1 - 6");
+		System.out.println("\nPlease select option 1 - 6");
 	}
 }
