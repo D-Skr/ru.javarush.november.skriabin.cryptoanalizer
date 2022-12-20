@@ -3,13 +3,16 @@ package view;
 import java.util.List;
 import java.util.Scanner;
 
-import utils.Alphabets;
+//import utils.Alphabets;
 import utils.EncryptConsole;
 
 public class OptionEncryptConsole {
 
 	static void run(List<Character> alphabet) {
+	    
+	    @SuppressWarnings("resource")
 		Scanner console = new Scanner(System.in);
+	    
 		System.out.println("Please enter your text:");
 		String text = console.nextLine();
 		System.out.println("Please enter shift key:");

@@ -15,7 +15,10 @@ public class OptionDecryptFile {
 
 	static void run(List<Character> alphabet) throws IOException {
 		long currentTime = System.currentTimeMillis();
+		
+		@SuppressWarnings("resource")
 		Scanner console = new Scanner(System.in);
+		
 		System.out.println("Please enter the absolute path and name of your text file:");
 		String pathNotEncryptedFile = console.nextLine();
 		String pathEncryptedFile = pathNotEncryptedFile.substring(0, pathNotEncryptedFile.length() - 4) + "_decrypted_"
