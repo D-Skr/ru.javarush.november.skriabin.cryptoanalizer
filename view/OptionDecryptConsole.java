@@ -8,7 +8,10 @@ import utils.DecryptConsole;
 public class OptionDecryptConsole {
 
 	static void run(List<Character> alphabet) {
+	    
+	    @SuppressWarnings("resource")
 		Scanner console = new Scanner(System.in);
+	    
 		System.out.println("Please enter your text:");
 		String text = console.nextLine();
 		System.out.println("Please enter shift key:");

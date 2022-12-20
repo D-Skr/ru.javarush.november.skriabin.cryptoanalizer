@@ -10,7 +10,9 @@ public class OptionBruteForce {
 
 	static void run(List<Character> alphabet) throws IOException {
 		long currentTime = System.currentTimeMillis();
-		Scanner console = new Scanner(System.in);
+		
+		@SuppressWarnings("resource")
+        Scanner console = new Scanner(System.in);
 		System.out.println("Please enter the absolute path and name of your text file:");
 		String pathEncryptedFile = console.nextLine();
 		String pathDecryptedFile = pathEncryptedFile.substring(0, pathEncryptedFile.length() - 4) + "_bruteforced_"

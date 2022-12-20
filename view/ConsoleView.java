@@ -11,6 +11,8 @@ public class ConsoleView {
 		String language = null;
 		System.out.println("Welcome to Caesar Cipher App!");
 		while (true) {
+		    
+		    @SuppressWarnings("resource")
 			Scanner console = new Scanner(System.in);
 			System.out.println("Choose text language: EN or RU");
 			language = console.nextLine();
